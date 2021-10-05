@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="games.css">
+    <title>Games Night</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Game 1: Your age in days</h1>
+
+        <div class="buttons-sec">
+            <div>
+                <button class="btn1" onclick="ageInDays()">Start</button>
+            </div>
+
+            <div>
+                <button class="btn2" onclick="reset()">Reset</button>
+            </div>
+
+        </div>
+             <div id="flex-box-result">
+                </div>
+                </div>
+
+                <div class="container">
+                    <h1>Game 2: Money Generator</h1>
+                    <button class="dough-btn" onclick="getDough()">Generate Money</button>
+                    <div class="flex-box-result2" id="money-box">
+
+                         </div>
+                 </div>
+
+                 <div class="container">
+                     <h1>Game 3: Rock, paper, scissors</h1>
+                     <div class="flex-box-rps" id="flex-box-rps-div">
+                         <img src="https://etherrock.com/9.png" id="rock" onclick="RpsGame(this)" alt="">
+                         <img src="https://www.pinclipart.com/picdir/middle/6-69349_cartoon-notebook-paper-cartoon-notebook-paper-notebook-notebook.png" id="paper" onclick="RpsGame(this)" alt="">
+                         <img src="https://img.pixers.pics/pho_wat(s3:700/FO/55/10/40/38/700_FO55104038_05abe777f61a8e9962514e7edf8515e7.jpg,700,518,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,468,jpg)/stickers-scissors-clip-art-cartoon-illustration.jpg.jpg" id="scissors" onclick="RpsGame(this)" alt="">
+
+                     </div>
+                     <div class="flex-box-rps" id="resetgame"></div>
+                     <button class="btn2" onclick="ResetRps()">Play Again</button>
+                 </div>
+
+                 <div class="container">
+                     <h1>Game 4: Magic Buttons</h1>
+                     <div class="flex-box-magic" id="flex-box-magic">
+                         <form action="">
+                             <label for="">Chose a color :</label>
+                             <select name="colors" id="background" onchange="buttonColorChange(this)">
+                                 <option value="maroon">Maroon</option>
+                                 <option value="aqua">Aqua</option>
+                                 <option value="lime">Lime</option>
+                                 <option value="reset">Reset</option>
+                                 <option value="random">Random</option>
+
+                             </select>
+
+                         </form>
+                         <button class="btn3">Maroon</button>
+                         <button class="btn4">Aqua</button>
+                         <button class="btn5">Lime</button>
+                         <button class="btn6">Reset</button>
+                         <button class="btn7">Random</button>
+                     </div>
+                 </div>
+<script src="games.js"> </script>
+</body>
+</html>

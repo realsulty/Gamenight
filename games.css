@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:hotpink;
+}
+
+.container{
+        margin: 1em 2em;
+        border: 2px solid black;
+        border-top-right-radius:3em;
+        padding: 1.5em 3em;
+        text-align:center;
+        background:gray;
+        color:white;
+}
+h1{
+    margin-bottom:1em;
+
+
+}
+
+.buttons-sec{
+  display: flex;
+  justify-content:space-around;
+  border: 2px solid black;
+  padding:5px 10px;
+
+}
+button{
+    padding:.5em 1em;
+    font-weight:bold;
+    font-size:20px;
+    border:none;
+    border-radius:1.5em;
+}
+button:hover{
+    opacity:75%;
+
+}
+.btn1{
+    background:orange;
+    color:white;
+}
+.btn2{
+     background:red;
+    color:white;
+}
+.dough-btn{
+    background:limegreen;
+    color:white;
+    margin:10px;
+}
+img{
+    margin:10px;
+}
+
+.flex-box-rps img{
+    width:120px;
+    height:150px;
+}
+.flex-box-rps img:hover{
+    box-shadow:-1px 2px 21px 5px rgba(30,0,255,0.5);
+}
+.flex-box-rps {
+     display: flex;
+     justify-content:space-around;
+     flex-wrap:wrap;
+}
+
+form{
+    padding: .5em 1em;
+}
+label{
+    font-size:20px;
+}
+.btn3{
+    background:maroon;
+    color:white;
+}
+.btn4{
+    background:aqua;
+
+}
+.btn5{
+    background:lime;
+
+}
+.btn6{
+    background:black;
+    color:white;
+}
+select{
+    padding:.2em .2em;
+    width:88px;
+}
+.flex-box-magic button{
+    margin: .5em .5em;
+}
