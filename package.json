@@ -1,0 +1,16 @@
+{
+  "name": "GameNight",
+  "version": "1.0.0",
+  "description": "this is a simple web game i designed practicing javascript",
+  "main": "games.js",
+  "scripts": {
+    "deploy": "gh-pages -d gamesnight"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://realsulty.github.io/GameNight",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
